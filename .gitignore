@@ -1,0 +1,39 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+*.egg-info/
+
+# Raw datasets
+data/raw/*
+!data/raw/.gitkeep
+
+# Intermediate raster files
+data/interim/*
+!data/interim/.gitkeep
+
+# Local credentials
+secrets.yaml
+*.pem
+*.key
+
+# .env
+.env
+.env.local
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.pytest_cache/
+*.log
